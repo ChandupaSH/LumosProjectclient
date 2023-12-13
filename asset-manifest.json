@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LumosProjectclient/static/css/main.daa3ba70.css",
+    "main.js": "/LumosProjectclient/static/js/main.d16e4b95.js",
+    "index.html": "/LumosProjectclient/index.html",
+    "main.daa3ba70.css.map": "/LumosProjectclient/static/css/main.daa3ba70.css.map",
+    "main.d16e4b95.js.map": "/LumosProjectclient/static/js/main.d16e4b95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daa3ba70.css",
+    "static/js/main.d16e4b95.js"
+  ]
+}
