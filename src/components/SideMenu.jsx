@@ -45,8 +45,8 @@ const SideMenu = () => {
                 listStyle: 'none',
                 height: '100%'
             }}>
-                <li onMouseEnter={() => {dispatch(sideMenuArrowHover(1))}}  style={liStyle}>New arrivals<ArrowForwardIosIcon style={arrowIconStyles}/></li>
-                <li onMouseEnter={() => {dispatch(sideMenuArrowHover(2))}}  style={liStyle}>Trending<ArrowForwardIosIcon style={arrowIconStyles}/></li>
+                <li onMouseEnter={() => {dispatch(sideMenuArrowHover(1))}} style={liStyle}>New arrivals<ArrowForwardIosIcon style={isHover == 1 ? arrowIconStyles : hideArrow}/></li>
+                <li onMouseEnter={() => {dispatch(sideMenuArrowHover(2))}} style={liStyle}>Trending<ArrowForwardIosIcon style={arrowIconStyles}/></li>
                 <li onMouseEnter={() => {dispatch(sideMenuArrowHover(3))}} style={liStyle}>Mens<ArrowForwardIosIcon style={arrowIconStyles}/></li>
                 <li onMouseEnter={() => {dispatch(sideMenuArrowHover(4))}} style={liStyle}>Ladies<ArrowForwardIosIcon style={arrowIconStyles}/></li>
                 <li onMouseEnter={() => {dispatch(sideMenuArrowHover(5))}} style={liStyle}>Kids<ArrowForwardIosIcon style={arrowIconStyles}/></li>

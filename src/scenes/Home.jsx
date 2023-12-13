@@ -16,7 +16,7 @@ const Home = () => {
         <div style={{display: 'flex',width: '100%'}}>
         <SideMenu style={{zIndex: '1023000'}} ></SideMenu>
         
-        <div>
+        <div style={{}}>
           <SlideShow></SlideShow>
         </div>
 
